@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁導覽列</title>
+    <!-- 引入 Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>按鈕樣式</title>
+<style>
+ /* 設定背景顏色為#4F9D9D */
+ body {
+    background-color: #C4E1E1;
+}
+
+/* 將導覽列的文字置中 */
+.navbar-nav {
+    text-align: center;
+}
+
+/* 網站名稱粗體 */
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+
+</style>   
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- 修改這裡的背景色為黑色 -->
+        <a class="navbar-brand" href="#">GDSC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">個人資料</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">作品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">筆記</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 引入 Bootstrap JavaScript 和 jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <div class="container mt-5">
+        <h1>按鈕樣式</h1>
+        <p>以下是不同風格的按鈕樣式：</p>
+        <button class="btn btn-primary">主要按鈕</button> <!--這是註解-->
+        <button class="btn btn-secondary">次要按鈕</button>
+        <button class="btn btn-success">成功按鈕</button>
+        <button class="btn btn-light">淺色按鈕</button>
+        <button class="btn btn-dark">深色按鈕</button>
+    </div>
+    
+    <div class="container mt-5">
+        <h1>唐老鴨</h1>
+        <img src="duck.jpg" alt="唐老鴨" class="img-fluid" style="width: 10%; height: auto;">
+    </div>
+
+    <div class="container mt-5">
+        <h1>綠色唐老鴨</h1>
+        <img src="https://images-tw.girlstyle.com/wp-content/uploads/2018/03/005JsdLigw1fa7mkp2oexj30qo1bgad9.jpg?auto=format&w=1242" alt="唐老鴨" class="img-fluid" style="width: 10%; height: auto;">
+    </div>
+
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/oRDRfikj2z8?si=kGiz9FAeZhHlm0x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
